@@ -78,7 +78,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/12/08/mybg/">mybg</a>
+      <a class="article-title" href="/2020/12/08/mybg/">Cmake常规操作</a>
     </h1>
   
 
@@ -86,7 +86,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>第一blog</p>
+        <p>新建项目及NDK概念，网上有很多资源，这里就不过多描述。目的：主要想通过OpenCV的集成，了解Cmake 脚本配置方法。<br>正题：<br>    build.gradle 配置：<br>    1.defaultConfig 中的cmake 主要用于配置添加编译参数。<br>       变量名： ANDROID_TOOLCHAIN        参数：clang          描述：指定Cmake应该使用的编译工具链</p>
+<pre><code>3.外层的cmake 用于配置执行脚本文件路径CMakeLists.txt及编译版本。
+![0dc65da2014a197394a4e4abf611277f.png](0dc65da2014a197394a4e4abf611277f.png)</code></pre>
+<p> 1.新建项目 配置build<br>     2.说明CMakeList 配置路径（以app目录下为基准找对应目录）<br>   #TODO 最低版本号   #TODO 共享库  可以接多个位置  #TODO 插入原生的一些库 ，通过link——libraries 添加进去格式如${}<br> 4.说明加载so方法<br><img src="4bc447999d3d3800f00e57ef21b5ef58.png" alt="4bc447999d3d3800f00e57ef21b5ef58.png"></p>
 
       
     </div>
@@ -181,7 +184,7 @@
       <ul>
         
           <li>
-            <a href="/2020/12/08/mybg/">mybg</a>
+            <a href="/2020/12/08/mybg/">Cmake常规操作</a>
           </li>
         
           <li>
